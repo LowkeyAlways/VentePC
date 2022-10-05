@@ -23,35 +23,71 @@ header{
 
 .nav-menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-left: 30%;
-    width: 60rem;
+    gap: 8rem;
+    background-color: #efefef;
+    height: 4rem;
 }
 
 section{
-    background-color: #2c3436;
-    height: 70rem;
+    background-color: #2d3436;
+    height: 80rem;
 }
 
-section ul{
+section div{
     background-color: #FFF;
     position: relative;
     top: 23%;
-    left: 30%;
-    /* text-align: center; */
-    columns: 2;
+    left: 26%;
     max-width: 80rem;
+    padding-bottom: 0.1rem;
+}
+
+section div ul{
+    columns: 2;
+    margin-right: 1rem;
 }
 
 section ul p{
     text-align: left;
+    line-height: 2.2rem;
 }
 
 .pc-image{
     text-align: center;
+    margin: 1rem;
 }
 
 .pc-description{
     padding-top: 3rem;
+}
+
+.pc-description h2{
+    padding-bottom: 1.5rem;
+}
+
+.pc-description p{
+    padding-bottom: 1.5rem;
+}
+
+.pc-details p{
+    line-height: 2.5rem;
+}
+
+button{
+    background-color: #d93d04;
+    display: block;
+    margin: auto 1rem 1rem auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.material-symbols-outlined{
+    vertical-align: middle;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
 }
