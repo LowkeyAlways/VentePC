@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* Reset */
 html{ 
     font-size: 62.5%;  
 }
 body{
     font: 1.6rem sans-serif; 
+    font-family: 'Roboto', sans-serif;
     margin: 0;  
 }
 h1,h2,h3,h4,p,ol,ul,figure,dd{
@@ -14,11 +17,13 @@ h1,h2,h3,h4,p,ol,ul,figure,dd{
 h1,h2,h3,h4{
     font-weight: normal;
 }
+a{
+    text-decoration: none;
+}
 
 header{
     background-color: #dee6e9;
     text-align: center;
-
 }
 
 .nav-menu{
@@ -30,9 +35,23 @@ header{
     height: 4rem;
 }
 
+.nav-menu a{
+    color: #2d3436;
+}
+
+.nav-menu li{
+    padding: 0.5rem;
+}
+
+.nav-menu li:hover{
+    background-color: #a09f9e;
+    transition: .3s;
+    transform: translateY(.25rem);
+}
+
 section{
     background-color: #2d3436;
-    height: 80rem;
+    height: 70rem;
 }
 
 section div{
