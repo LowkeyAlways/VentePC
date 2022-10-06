@@ -52,7 +52,7 @@ header{
     transform: translateY(-.25rem);
 }
 section{
-    background-color: #f44336;
+    background-color: #2d3436;
     height: 76rem;
 }
 
@@ -75,6 +75,10 @@ section div ul{
 section ul p{
     text-align: left;
     line-height: 2.2rem;
+}
+
+.pc-image img{
+    width: -webkit-fill-available;
 }
 
 .pc-image{
@@ -158,15 +162,13 @@ footer{
         margin-left: 3rem;
     }
     footer{
-        position: sticky;
+        position: relative;
         width: fit-content;
+        bottom: 0;
     }
     button {
         margin: 2rem;
         margin-left: auto;
         margin-right: auto;
-    }
-    .nav-menu img{
-        width: -webkit-fill-available;
     }
 }
