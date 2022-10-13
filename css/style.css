@@ -108,6 +108,8 @@ button{
     margin: auto 1rem 1rem auto;
     padding: 1rem;
     border-radius: 0.5rem;
+    color: #FFF;
+    cursor: pointer;
 }
 
 .material-symbols-outlined{
