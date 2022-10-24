@@ -10,7 +10,7 @@
 <!-- Main -->
 <main> 
     <?php include_once './pages/specs.inc.php';?>
-</main>
+</main> 
 
 <!-- Footer -->
 <?php include_once './pages/footer.inc.php'; ?> 
