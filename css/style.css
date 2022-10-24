@@ -175,17 +175,4 @@ footer{
         margin-right: auto;
     }
 
-
-}
-
-@media screen and (min-width:820px) and (max-width:1180px) {
-    section{
-        height: 107rem;
-    }
-}
-
-@media screen and (min-width:912px) and (max-width:1368px) {
-    section{
-        height: 128rem;
-    }
 }
