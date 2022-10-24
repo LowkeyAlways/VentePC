@@ -9,7 +9,7 @@ html{
 }
 body{
     font: 1.6rem sans-serif; 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto' sans-serif;
     margin: 0;  
 }
 h1,h2,h3,h4,p,ol,ul,figure,dd{
@@ -27,6 +27,15 @@ a{
 header{
     background-color: #dee6e9;
     text-align: center;
+}
+
+header h1{
+    font-size: 2.7rem;
+    font-weight: lighter;
+}
+
+header h1 strong {
+    font-weight: bold;
 }
 
 .nav-menu{
