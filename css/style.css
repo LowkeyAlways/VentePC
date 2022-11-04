@@ -88,6 +88,7 @@ section ul p{
 
 .pc-image img{
     width: -webkit-fill-available;
+    padding-top: 1.7rem;
 }
 
 .pc-image{
@@ -96,7 +97,7 @@ section ul p{
 }
 
 .pc-description{
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 .pc-description h2{
