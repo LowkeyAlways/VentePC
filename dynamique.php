@@ -1,3 +1,9 @@
+<!--variables-->
+<?php
+    
+    include_once './pages/var.inc.php';
+    
+?>
 <!-- Head -->
 <?php
 
